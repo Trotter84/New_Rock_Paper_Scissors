@@ -1,0 +1,111 @@
+body {
+  background-image: url(/Users/danieltrotter/DevPoint_Labs/Week_2/new_rock_paper_scissors_project/assets/images/final_destination_map.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*
+  =============================
+    Title
+  =============================
+*/
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, .7);
+  text-transform: uppercase;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font: "super-smash-bros-font"
+}
+
+/*
+  =============================
+    Buttons
+  =============================
+*/
+
+.buttons {
+  text-align: center;
+}
+
+/*
+  =============================
+    Rock
+  =============================
+*/
+
+.rock {
+  margin: 20px 40px 70px 100px;
+  width: 250px;
+  border-style: none;
+  background: none;
+}
+
+.rock:active {
+  margin: 20px 45px 70px 105px;
+  padding: 0px;
+  width: 240px;
+}
+
+.rock img {
+  max-width: 100%;
+}
+
+/*
+  =============================
+    Paper
+  =============================
+*/
+
+.paper {
+  margin: 20px 40px 70px 40px;
+  width: 190px;
+  border-style: none;
+  background: none;
+}
+
+.paper:active {
+  margin: 20px 45px 70px 45px;
+  padding: 0px;
+  width: 180px;
+}
+
+.paper img {
+  max-width: 100%;
+}
+
+/*
+  =============================
+   Scissors
+  =============================
+*/
+
+.scissor {
+  margin: 30px 100px 70px 35px;
+  width: 220px;
+  border-style: none;
+  background: none;
+  text-align: right;
+  padding: 0px;
+}
+
+.scissor:active {
+  margin: 20px 100px 25px 25px;
+  padding: 0px;
+  width: 230px;
+}
+
+.scissor img {
+  max-width: 100%;
+}
+
+/*
+  =============================
+
+  =============================
+*/
